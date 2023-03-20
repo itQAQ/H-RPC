@@ -6,4 +6,6 @@ package com.itcq.rpc.api;
  * @date 2022/8/9 19:53
  */
 public interface HelloServiceApi {
+
+    String hello(HelloObject object);
 }
